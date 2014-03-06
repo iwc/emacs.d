@@ -5,6 +5,10 @@
 
 (yas-global-mode 1)
 
+(let ((snippets-path (expand-file-name "snippets" user-emacs-directory)))
+     (unless (file-exists-p snippets-path)
+       (make-directory snippets-path)))
+         
 (yas/load-directory "~/.emacs.d/snippets")
 
 ;; (setq yas/prompt-functions '(yas/ido-prompt
