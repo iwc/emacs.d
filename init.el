@@ -41,6 +41,7 @@
 (require 'init-js2-mode)
  (require 'init-handlebars-mode)
 (require 'init-magit)
+(require 'init-flycheck)
 (require 'init-helm)
 (require 'init-helm-ls-git)
 (require 'init-expand-region)
