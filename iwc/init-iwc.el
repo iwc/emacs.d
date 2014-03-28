@@ -6,6 +6,6 @@
 (setq blink-cursor-mode nil)
 (column-number-mode t)
 (show-paren-mode t)
-(tool-bar-mode nil)
+(tool-bar-mode -1)
 
 (provide 'init-iwc)
