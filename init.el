@@ -40,6 +40,7 @@
 (require 'init-markdown-mode)
 (require 'init-js2-mode)
 (require 'init-handlebars-mode)
+(require 'init-groovy-mode)
 (require 'init-magit)
 (require 'init-flycheck)
 (require 'init-helm)
