@@ -39,6 +39,7 @@
 (require 'init-web-mode)
 (require 'init-markdown-mode)
 (require 'init-js2-mode)
+(require 'init-erlang-mode)
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
 (require 'init-magit)
