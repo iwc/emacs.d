@@ -50,6 +50,7 @@
 (require 'init-autocomplete)
 ;(require 'init-company-mode)
 (require 'init-powerline)
+(require 'init-undo-tree)
 
 ;; move customization settings to their own file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
