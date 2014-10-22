@@ -3,6 +3,6 @@
 ;;"~/.emacs.d/iwc/defthemes")
 
 ;; load the theme
-(load-theme 'mustang t)
+(load-theme 'mustang-iwc t)
 
 (provide 'init-defthemes)
