@@ -1,5 +1,5 @@
 ;; powerline.el
 (require-package 'powerline)
-(powerline-vim-theme)
+;(powerline-vim-theme)
 
 (provide 'init-powerline)
