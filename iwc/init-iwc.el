@@ -7,5 +7,6 @@
 (column-number-mode t)
 (show-paren-mode t)
 (tool-bar-mode -1)
+(global-hl-line-mode t)
 
 (provide 'init-iwc)
