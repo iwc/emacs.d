@@ -11,4 +11,7 @@
 (add-hook 'c++-mode-hook 'iwc-c-modes-ac-sources)
 (add-hook 'c-mode-hook 'iwc-c-modes-ac-sources)
 
+;; JSX autocomplete
+(add-to-list 'ac-modes 'js2-jsx-mode)
+
 (provide 'init-autocomplete)
