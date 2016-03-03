@@ -12,6 +12,7 @@
 (require 'init-elpa)
 (require 'init-global)
 (require 'init-defuns)
+(require 'init-exec-path-from-shell)  ;; fixes OSX env var annoyances with PATH
 
 (require 'init-fonts)
 (require 'init-defthemes)
