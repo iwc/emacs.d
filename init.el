@@ -36,6 +36,7 @@
 (require 'init-yaml-mode)
 (require 'init-cmake-mode)
 (require 'init-php-mode)
+(require 'init-scala-mode)
 (require 'init-less-css-mode)
 (require 'init-flycheck)
 (require 'init-web-mode)
