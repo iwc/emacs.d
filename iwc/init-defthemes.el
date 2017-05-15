@@ -5,7 +5,7 @@
 ;; load the theme
 ;(load-theme 'mustang-iwc t)
 (if (not window-system)
-    (load-theme 'subatomic256 t)    
+    (load-theme 'subatomic256 t)
   (load-theme 'material t))
 
 (provide 'init-defthemes)

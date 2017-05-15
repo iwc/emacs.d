@@ -17,7 +17,7 @@
 ;;
 ;; *****************************************************************************************
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "requires Emacs 24 or later."))
 
 (deftheme brin "Space Grey theme for Emacs")
@@ -26,7 +26,7 @@
     'brin
     '(linum-format " %5i "))
 
-  (let ((background "#11141c")
+  (let ((background "#2b303b")
         (gutters    "#343d46")
         (gutter-fg  "#65737e")
         (gutters-active "#4f5b66")

@@ -17,7 +17,7 @@
 ;;
 ;; *****************************************************************************************
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "requires Emacs 24 or later."))
 
 (deftheme granger "Light table theme for Emacs")
@@ -60,7 +60,11 @@
    `(font-lock-function-name-face     ((t (:foreground "#3ca380"))))
    `(font-lock-doc-string-face        ((t (:foreground "#496B83")))))
 
+;; Helm
 ;; *****************************************************************************************
+
+  `(helm-selection ((t (:background selection :underline nil))))
+  `(helm-selection-line ((t (:background selection))))
 
    )
 

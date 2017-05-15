@@ -1,5 +1,12 @@
 ;;; init.el
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (add-to-list 'load-path (expand-file-name "iwc" user-emacs-directory))
 
 ;; set some constants for use later
@@ -42,6 +49,8 @@
 (require 'init-web-mode)
 (require 'init-markdown-mode)
 (require 'init-js2-mode)
+(require 'init-toml-mode)
+(require 'init-rust-mode)
 (require 'init-erlang-mode)
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
@@ -51,7 +60,7 @@
 (require 'init-expand-region)
 (require 'init-autocomplete)
 ;(require 'init-company-mode)
-(require 'init-powerline)
+;(require 'init-powerline)
 (require 'init-spaceline)
 (require 'init-undo-tree)
 

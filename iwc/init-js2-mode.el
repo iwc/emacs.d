@@ -2,7 +2,7 @@
 (require-package 'js2-mode)
 
 ;; javascript mode customization
-(setq js-indent-level 4)
+(setq js-indent-level 2)
 
 ;; Use js2-mode for javascript
 (autoload 'js2-mode "js2-mode" nil t)
