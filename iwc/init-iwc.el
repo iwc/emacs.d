@@ -8,5 +8,5 @@
 (show-paren-mode t)
 (tool-bar-mode -1)
 (global-hl-line-mode t)
-
+(global-linum-mode t)
 (provide 'init-iwc)

@@ -1,4 +1,8 @@
 /auto-save-list/
 /elpa/
 /backups/
+/semanticdb/
+/url/
+custom.el
 srecode-map.el
+

@@ -3,7 +3,7 @@
 ;; From: http://community.schemewiki.org/cgi-bin/scheme.cgi?Emacs
 
 (if (eq system-type 'darwin)
-    (and (set-face-attribute 'default nil :family "Source Code Pro" :height 115)
+    (and (set-face-attribute 'default nil :family "Source Code Pro" :height 130)
 	 (setq mac-allow-anti-aliasing t)))
 
 (if (eq system-type 'gnu/linux)
