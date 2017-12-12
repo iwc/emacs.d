@@ -9,7 +9,7 @@
 ;;(require 'doom-theme-config)
 
 (require-package 'solarized-theme)
-(load-theme 'solarized-dark)
 (require 'solarized-theme-config)
+(load-theme 'solarized-dark t)
 
 (provide 'init-defthemes)
