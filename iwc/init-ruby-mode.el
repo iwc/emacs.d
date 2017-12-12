@@ -1,8 +1,15 @@
 ;; ruby mode
+(require-package 'ruby-mode)
+(require-package 'inf-ruby)
 
 (autoload 'ruby-mode "ruby-mode"
   "Mode for editing ruby source files")
 (add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
+
+;; Fastlane files
+(add-to-list 'auto-mode-alist '("Fastfile$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Appfile$" . ruby-mode))
+
 (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode))
 (autoload 'run-ruby "inf-ruby"
   "Run an inferior Ruby process")

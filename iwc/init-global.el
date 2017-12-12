@@ -16,7 +16,6 @@
 ;; scroll bar on the right plz
 (set-scroll-bar-mode 'right)
 
-
 ;; Make sure all backup files only live in one place
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 
@@ -27,7 +26,7 @@
 (setq delete-by-moving-to-trash t)
 
 ;; link the selection and clipboard together
-(setq x-select-enable-clipboard t)
+(setq select-enable-clipboard t)
 
 ;; zap-up-to-char, forward-to-word, backward-to-word, etc
 (require 'misc)

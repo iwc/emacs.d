@@ -27,7 +27,7 @@
 (require 'init-diff)
 (require 'init-tabs)
 (require 'init-utf-8)
-(when *is-osx* 
+(when *is-osx*
   (require 'init-mac))
 (require 'init-org)
 (require 'init-css)
@@ -54,6 +54,7 @@
 (require 'init-erlang-mode)
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
+(require 'init-swift-mode)
 (require 'init-magit)
 (require 'init-helm)
 (require 'init-helm-ls-git)
@@ -63,10 +64,17 @@
 ;(require 'init-powerline)
 (require 'init-spaceline)
 (require 'init-undo-tree)
+(require 'init-projectile)
+(require 'init-clang-format)
 
 ;; move customization settings to their own file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(when (file-exists-p custom-file) 
+(when (file-exists-p custom-file)
    (load custom-file))
 
-(message "emacs-user-directory is %s" user-emacs-directory) 
+(message "emacs-user-directory is %s" user-emacs-directory)
+(put 'set-goal-column 'disabled nil)
+(put 'upcase-region 'disabled nil)
+
+(provide 'init)
+;; init.el ends here
