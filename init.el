@@ -66,6 +66,7 @@
 (require 'init-undo-tree)
 (require 'init-projectile)
 (require 'init-clang-format)
+(require 'init-comment-dwim-2)
 
 ;; move customization settings to their own file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
