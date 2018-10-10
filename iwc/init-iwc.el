@@ -8,5 +8,8 @@
 (show-paren-mode t)
 (tool-bar-mode -1)
 (global-hl-line-mode t)
-;(global-linum-mode t)
+
+(if (not (version< emacs-version "26"))
+    (global-display-line-numbers-mode))
+
 (provide 'init-iwc)

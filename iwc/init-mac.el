@@ -6,7 +6,7 @@
 (when (boundp 'mouse-wheel-scroll-amount)
   (setq mouse-wheel-scroll-amount '(0.01)))
 
-;; Fix some whack looking colors
-;(setq ns-use-srgb-colorspace nil)
+(if (not (version< emacs-version "26"))
+    (setq ns-use-thin-smoothing t))
 
 (provide 'init-mac)

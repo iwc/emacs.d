@@ -51,6 +51,9 @@
 (define-key global-map [C-end] 'end-of-buffer)
 
 ;; emacsclient server mode
-(server-start t)
+(require 'server)
+(unless (server-running-p)
+  (server-start))
+
 
 (provide 'init-global)

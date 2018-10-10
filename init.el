@@ -77,5 +77,6 @@
 (put 'set-goal-column 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
+
 (provide 'init)
 ;; init.el ends here

@@ -5,7 +5,7 @@
 
 (if (eq system-type 'darwin)
     (and (cond
-          ((member "SF Mono" (font-family-list)) (set-face-attribute 'default nil :family "SF Mono" :height 130))
+          ((member "SF Mono" (font-family-list)) (set-face-attribute 'default nil :family "SF Mono" :height 120))
           ((member "Source Code Pro" (font-family-list)) (set-face-attribute 'default nil :family "Source Code Pro" :height 130)))
 	 (setq mac-allow-anti-aliasing t)))
 
