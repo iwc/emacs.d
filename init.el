@@ -55,6 +55,7 @@
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
 (require 'init-swift-mode)
+(require 'init-tuareg-mode)
 (require 'init-magit)
 (require 'init-helm)
 (require 'init-helm-ls-git)
