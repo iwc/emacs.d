@@ -38,6 +38,9 @@
 (when *is-osx*
    (require 'init-pbcopy))
 ;(require 'init-malabar-mode)
+(require 'init-helm)
+(require 'init-helm-ls-git)
+(require 'init-lsp)
 (require 'init-yasnippet)
 (require 'init-ruby-mode)
 (require 'init-yaml-mode)
@@ -57,17 +60,17 @@
 (require 'init-swift-mode)
 (require 'init-tuareg-mode)
 (require 'init-magit)
-(require 'init-helm)
-(require 'init-helm-ls-git)
 (require 'init-expand-region)
-(require 'init-autocomplete)
-;(require 'init-company-mode)
-;(require 'init-powerline)
+;;(require 'init-autocomplete)
+(require 'init-company-mode)
+;;(require 'init-powerline)
+
 (require 'init-spaceline)
 (require 'init-undo-tree)
 (require 'init-projectile)
 (require 'init-clang-format)
 (require 'init-comment-dwim-2)
+
 
 ;; move customization settings to their own file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

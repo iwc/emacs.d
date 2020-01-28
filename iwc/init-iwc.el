@@ -10,6 +10,6 @@
 (global-hl-line-mode t)
 
 (if (not (version< emacs-version "26"))
-    (global-display-line-numbers-mode))
+    (add-hook 'prog-mode-hook #'display-line-numbers-mode))
 
 (provide 'init-iwc)
