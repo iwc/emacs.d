@@ -12,4 +12,6 @@
 (if (not (version< emacs-version "26"))
     (add-hook 'prog-mode-hook #'display-line-numbers-mode))
 
+(setq-default line-spacing 2)
+
 (provide 'init-iwc)
