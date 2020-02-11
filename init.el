@@ -65,7 +65,8 @@
 (require 'init-company-mode)
 ;;(require 'init-powerline)
 
-(require 'init-spaceline)
+;;(require 'init-spaceline)
+(require 'init-doom-modeline)
 (require 'init-undo-tree)
 (require 'init-projectile)
 (require 'init-clang-format)
