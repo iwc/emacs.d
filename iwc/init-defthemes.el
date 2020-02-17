@@ -10,7 +10,7 @@
 ;; may have their own settings.
                                         ;(load-theme 'doom-nord t)
 (if (display-graphic-p)
-    (load-theme 'doom-city-lights t)
+    (load-theme 'doom-moonlight t)
   (load-theme 'doom-nord t))
 
 ;; Enable flashing mode-line on errors
