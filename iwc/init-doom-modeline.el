@@ -47,5 +47,6 @@
 ;; Whether display the `lsp' state. Non-nil to display in mode-line.
 (setq doom-modeline-lsp t)
 
+(setq doom-modeline-height 45)
 
 (provide 'init-doom-modeline)

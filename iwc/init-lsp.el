@@ -4,6 +4,6 @@
 (require-package 'company-lsp)
 (require-package 'helm-lsp)
 
-(define-key helm-command-map (kbd "'") 'helm-lsp-workspace-symbol)
+(define-key helm-command-map (kbd ".") 'helm-lsp-workspace-symbol)
 
 (provide 'init-lsp)

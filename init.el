@@ -58,6 +58,7 @@
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
 (require 'init-swift-mode)
+(require 'init-go-mode)
 (require 'init-tuareg-mode)
 (require 'init-magit)
 (require 'init-expand-region)
