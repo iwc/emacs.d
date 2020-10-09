@@ -48,7 +48,7 @@
 (require 'init-php-mode)
 (require 'init-scala-mode)
 (require 'init-less-css-mode)
-(require 'init-flycheck)
+;(require 'init-flycheck)
 (require 'init-web-mode)
 (require 'init-markdown-mode)
 (require 'init-js2-mode)
