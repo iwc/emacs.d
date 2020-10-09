@@ -5,7 +5,7 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
+;(package-initialize)
 
 (add-to-list 'load-path (expand-file-name "iwc" user-emacs-directory))
 
@@ -52,6 +52,7 @@
 (require 'init-web-mode)
 (require 'init-markdown-mode)
 (require 'init-js2-mode)
+(require 'init-typescript-mode)
 (require 'init-toml-mode)
 (require 'init-rust-mode)
 (require 'init-erlang-mode)
