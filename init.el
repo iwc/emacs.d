@@ -21,6 +21,7 @@
 (require 'init-defuns)
 (require 'init-exec-path-from-shell)  ;; fixes OSX env var annoyances with PATH
 
+(require 'init-layout)
 (require 'init-fonts)
 (require 'init-defthemes)
 (require 'init-ido)
@@ -68,7 +69,8 @@
 ;;(require 'init-powerline)
 
 ;;(require 'init-spaceline)
-(require 'init-doom-modeline)
+;;(require 'init-doom-modeline)
+(require 'init-nano-modeline)
 (require 'init-undo-tree)
 (require 'init-projectile)
 (require 'init-clang-format)

@@ -8,10 +8,15 @@
 (show-paren-mode t)
 (tool-bar-mode -1)
 (global-hl-line-mode t)
+(toggle-scroll-bar -1)
+(pixel-scroll-mode t)
+;(if (not (version< emacs-version "26"))
+;    (add-hook 'prog-mode-hook #'display-line-numbers-mode))
 
-(if (not (version< emacs-version "26"))
-    (add-hook 'prog-mode-hook #'display-line-numbers-mode))
-
-(setq-default line-spacing 0.3)
+;(setq-default line-spacing 0.3)
+;; Vertical window divider
+(setq window-divider-default-right-width 24)
+(setq window-divider-default-places 'right-only)
+(window-divider-mode 1)
 
 (provide 'init-iwc)

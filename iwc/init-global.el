@@ -14,7 +14,7 @@
 (setq column-number-mode  t)
 
 ;; scroll bar on the right plz
-(set-scroll-bar-mode 'right)
+;(set-scroll-bar-mode 'right)
 
 ;; Make sure all backup files only live in one place
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
