@@ -34,7 +34,7 @@
 (require 'init-htaccess)
 (require 'init-tramp)
 
-(require 'init-autopair)
+;;(require 'init-autopair)
 (when *is-osx*
    (require 'init-pbcopy))
 ;(require 'init-malabar-mode)

@@ -6,4 +6,10 @@
 
 (define-key helm-command-map (kbd ".") 'helm-lsp-workspace-symbol)
 
+(require-package 'lsp-sourcekit)
+(eval-after-load 'lsp-mode
+  (progn
+    (require 'lsp-sourcekit)
+    (setq lsp-sourcekit-executable (string-trim (shell-command-to-string "xcrun --find sourcekit-lsp")))))
+
 (provide 'init-lsp)
