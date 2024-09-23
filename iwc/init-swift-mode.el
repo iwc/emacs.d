@@ -4,11 +4,11 @@
 (eval-after-load 'lsp-mode
   (progn
     (require 'lsp-sourcekit)
-    (setq lsp-sourcekit-executable
-          "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp")))
+    (setq lsp-sourcekit-executable (string-trim (shell-command-to-string "xcrun --find sourcekit-lsp")))))
 
 (setq auto-mode-alist
-      (append '(("\\.swift\\'" . swift-mode))
+      (append '(("\\.swift\\'" . swift-mode)
+                ("\\.swiftinterface\\'" . swift-mode))
               auto-mode-alist))
 
 (add-hook 'swift-mode-hook (lambda () (lsp)))

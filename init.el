@@ -8,6 +8,7 @@
 ;(package-initialize)
 
 (add-to-list 'load-path (expand-file-name "iwc" user-emacs-directory))
+(add-to-list 'load-path (expand-file-name "iwc/iosdev" user-emacs-directory))
 
 ;; set some constants for use later
 (defconst *is-osx* (eq system-type 'darwin))
@@ -19,11 +20,13 @@
 (require 'init-elpa)
 (require 'init-global)
 (require 'init-defuns)
+(require 'init-kill-ring)
+(require 'init-display-buffer-alist)
 (require 'init-exec-path-from-shell)  ;; fixes OSX env var annoyances with PATH
 
 (require 'init-fonts)
 (require 'init-defthemes)
-(require 'init-ido)
+;;(require 'init-ido)
 (require 'init-diff)
 (require 'init-tabs)
 (require 'init-utf-8)
@@ -59,6 +62,7 @@
 (require 'init-handlebars-mode)
 (require 'init-groovy-mode)
 (require 'init-swift-mode)
+;;(require 'init-iosdev)
 (require 'init-go-mode)
 (require 'init-tuareg-mode)
 (require 'init-magit)
@@ -73,7 +77,7 @@
 (require 'init-projectile)
 (require 'init-clang-format)
 (require 'init-comment-dwim-2)
-
+(require 'init-treemacs)
 
 ;; move customization settings to their own file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

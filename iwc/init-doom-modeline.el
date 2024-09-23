@@ -1,8 +1,9 @@
 ;; doom-modeline
 
 (require-package 'all-the-icons)
-(require-package 'doom-modeline)
+(require-package 'nerd-icons)
 
+(require-package 'doom-modeline)
 
 (doom-modeline-mode 1)
 

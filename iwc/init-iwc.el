@@ -14,4 +14,8 @@
 
 (setq-default line-spacing 0.3)
 
+;; Pixel scrolling
+(pixel-scroll-mode)
+(pixel-scroll-precision-mode)
+
 (provide 'init-iwc)
