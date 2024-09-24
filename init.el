@@ -13,6 +13,10 @@
 ;; set some constants for use later
 (defconst *is-osx* (eq system-type 'darwin))
 (defconst *is-linux* (eq system-type 'gnu/linux))
+;; move customization settings to their own file
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(when (file-exists-p custom-file)
+   (load custom-file))
 
 
 ;; ;; basic setup
@@ -79,10 +83,6 @@
 (require 'init-comment-dwim-2)
 (require 'init-treemacs)
 
-;; move customization settings to their own file
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(when (file-exists-p custom-file)
-   (load custom-file))
 
 (message "emacs-user-directory is %s" user-emacs-directory)
 (put 'set-goal-column 'disabled nil)

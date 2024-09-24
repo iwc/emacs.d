@@ -1,6 +1,7 @@
 ;; helm
 (require-package 'helm)
 
+(require 'helm)
 ;;(require 'helm-config)
 
 (setq helm-semantic-fuzzy-match t
