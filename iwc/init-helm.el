@@ -2,13 +2,11 @@
 (require-package 'helm)
 
 (require 'helm)
-;;(require 'helm-config)
 
 (setq helm-semantic-fuzzy-match t
       helm-imenu-fuzzy-match t)
 
 (setq helm-display-function 'helm-display-buffer-in-own-frame
-        helm-display-buffer-reuse-frame t
         helm-use-undecorated-frame-option t)
 
 ;;; Use helm-find-files for C-x C-f
